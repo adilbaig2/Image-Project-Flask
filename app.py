@@ -880,4 +880,4 @@ def convert_to_autoencoder_binary(image, out_file=None, model_type='autoencoder'
     return convert_to_color_binary(image, out_file, model_type=model_type, original_filename=original_filename)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
