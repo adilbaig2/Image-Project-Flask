@@ -1,0 +1,31 @@
+# created by virtualenv automatically
+# Python and PyCache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# Virtual environments
+env/
+venv_name/
+pyvenv.cfg
+
+# Local development files
+instance/users.db
+color_binary_output.txt
+
+# System and IDE files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment/config files
+.env
+*.cfg
+CACHEDIR.TAG
+
+# User-uploaded content (in static/)
+static/uploads/
